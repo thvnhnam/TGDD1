@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="~/Content/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css" />
+
+</head>
+<body>
+    <header>
+        <img src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/09/banner/IP15-1200-44-1200x44.png" />
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="~/Home/Index"><img style="width:150px" src="https://cdn.haitrieu.com/wp-content/uploads/2021/11/Logo-The-Gioi-Di-Dong-MWG-B-H.png" /></a></li>
+                <li><a href="">Hồ Chí Minh <i class="fa-solid fa-sort-down" style="color: #000000;"></i></a></li>
+                <li><input type="text" placeholder="Bạn tìm gì..." /><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></li>
+                <li><a href=""></a><button>Tài khoản & <br /> Đơn hàng</button></li>
+                <li><a href=""></a><button><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i> Giỏ hàng</button></li>
+                <li><a href="">24h Công nghệ</a></li>
+                <li><a href="">Hỏi đáp</a></li>
+                <li><a href="">Game App</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="menu-bar">
+        <div class="container">
+            <div class="menu-bar-content">
+                <ul>
+                    <li><a href=""><i class="fa-solid fa-mobile-screen" style="color: #000000;"></i> Điện thoại</a></li>
+                    <li><a href=""><i class="fa-solid fa-laptop" style="color: #000000;"></i> Laptop</a></li>
+                    <li><a href=""><i class="fa-solid fa-tablet-screen-button" style="color: #000000;"></i> Tablet</a></li>
+                    <li><a href=""><i class="fa-solid fa-headphones" style="color: #000000;"></i> Phụ kiện <i class="fa-solid fa-sort-down" style="color: #000000;"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-clock" style="color: #000000;"></i> Smartwatch</a></li>
+                    <li><a href=""><i class="fa-regular fa-clock" style="color: #000000;"></i> Đồng hồ</a></li>
+                    <li><a href=""><i class="fa-solid fa-mobile-screen-button" style="color: #000000;"></i> Máy cũ giá rẻ</a></li>
+                    <li><a href=""><i class="fa-solid fa-computer" style="color: #000000;"></i> PC, Máy in <i class="fa-solid fa-sort-down" style="color: #000000;"></i></a></li>
+                    <li><a href="">Sim, Thẻ cào</a></li>
+                    <li><a href="">Dịch vụ tiện ích <i class="fa-solid fa-sort-down" style="color: #000000;"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            @RenderBody()
+        </div>
+    </section>
+
+    <footer class="footer" style="margin-top: 10px;">
+        <section style="margin-bottom: 340px;">
+            <div class="container">
+                <a href=""><img style="width:1200px;height:370px;" src="~/img/ava.png" /></a>
+            </div>
+        </section>
+        <section class="clearfix footer__top" style=" background-color:white; height:220px;">
+            <div class="container">
+                <div class="footer__col">
+                    <ul class="f-listmenu">
+                        <li><a href="">Tích điểm Quà tặng VIP</a></li>
+                        <li><a href="">Lịch sử mua hàng</a></li>
+                        <li><a href="">Tìm hiểu về mua trả góp</a></li>
+                        <li><a href="">Chính sách bảo hành</a></li>
+                        <li><a href="">Xem thêm <i class="fa-solid fa-sort-down" style="color: #000000;"></i></a>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <ul class="f-listmenu">
+                        <li><a href="">Giới thiệu công ty (MWG.vn)</a></li>
+                        <li><a href="">Tuyển dụng</a></li>
+                        <li><a href="">Gửi góp ý, khiếu nại</a></li>
+                        <li><a href="">Tìm siêu thị (3.353 shop)</a></li>
+                        <li><a href="">Xem bản mobile</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <div class="f-listtel">
+                        <p class="f-listtel__title">
+                            <strong>Tổng đài hỗ trợ</strong>
+
+                            (Miễn phí gọi)
+
+                        </p>
+                        <p class="f-listtel__content">
+                            <span>Khiếu nại:</span> <a style="font-weight: bold; color: #2f80ed;" href="tel:18001062">1800.1062</a>
+                            (8:00 - 21:30)
+                        </p>
+                        <p class="f-listtel__content">
+                            <span>Bảo hành:</span> <a style="font-weight: bold; color: #2f80ed;" href="tel:18001064">1800.1064</a>
+                            (8:00 - 21:00)
+                        </p>
+                    </div>
+                </div>
+                <div class="footer__col">
+                    <div class="f-social">
+                        <a href="">
+                            <img src="~/img/facebook.jpg" />
+                            3886.8k Fan
+                        </a>
+                        <a href="">
+                            <img src="~/img/youtube.png" />
+                            863k Đăng ký
+                        </a>
+
+                        <a href="">
+                            <img src="~/img/zalo.png" />
+                            Zalo TGDĐ
+                        </a>
+                    </div>
+                    <div class="f-certify">
+                        <a href="">
+                            <img src="~/img/taitro.png" />
+                        </a>
+
+                    </div>
+                    <div class="f-website">
+                        <div class="footer__logo">
+                            <p class="footer__logo-hd">Website cùng tập đoàn</p>
+                            <a href=""><img style="height: 60px; width: 350px; margin-bottom:10px;" src="~/img/tapdoan.png" /></a>
+                        </div>
+                    </div>
+                </div>
+                <p style="color: #666; font-size: 12px;">
+                    © 2018. Công ty cổ phần Thế Giới Di Động. GPDKKD: 0303217354 do sở KH &amp; ĐT TP.HCM cấp ngày 02/01/2007. GPMXH: 238/GP-BTTTT do Bộ Thông Tin và Truyền Thông cấp ngày 04/06/2020.<br>
+                    Địa chỉ: 128 Trần Quang Khải, P.Tân Định, Q.1, TP.Hồ Chí Minh. Địa chỉ liên hệ và gửi chứng từ: Lô T2-1.2, Đường D1, Đ. D1, P.Tân Phú, TP.Thủ Đức, TP.Hồ Chí Minh. Điện thoại: 028 38125960. Email: cskh@thegioididong.com. Chịu trách nhiệm nội dung: Huỳnh Văn Tốt. Email: Tot.huynhvan@thegioididong.com.
+                    <a style="color: #2f80ed; font-size: 12px;" href="">Xem chính sách sử dụng</a>
+
+                </p>
+            </div>
+
+
+        </section>
+    </footer>
+</body>
+
+</html>

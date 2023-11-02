@@ -1,0 +1,224 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    height: 50px;
+}
+
+/*-------- Header ----------*/
+header {
+    background-color: #000;
+    text-align: center;
+}
+
+nav {
+    background-color: #ffd400;
+}
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        nav ul li, a {
+            color: black;
+            font-size: 14px;
+        }
+
+            nav ul li:nth-child(3) i {
+                position: absolute;
+                font-size: 20px;
+                right: 720px;
+                line-height: 30px;
+                cursor: pointer;
+            }
+
+            nav ul li input {
+                height: 35px;
+                width: 300px;
+                border-radius: 5px;
+                border: none;
+                padding-left: 6px;
+                outline: none;
+            }
+
+            nav ul li button {
+                height: 40px;
+                padding: 0 15px;
+                cursor: pointer;
+                background-color: #ffbc08;
+                border-radius: 5px;
+                border: 0;
+            }
+
+.menu-bar {
+    background-color: #ffd400;
+    padding: 12px 0;
+    height: 50px;
+}
+
+    .menu-bar ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+        .menu-bar ul li {
+            font-size: 15px;
+        }
+
+            .menu-bar ul li a {
+                margin-right: 6px;
+                font-size: 15px;
+            }
+
+
+/*---------- Footer ---------------*/
+.footer__top {
+    padding: 15px 0 5px;
+}
+
+.footer__col {
+    float: left;
+    width: 24%;
+}
+
+    .footer__col:nth-child(2) {
+        width: 19%;
+    }
+
+    .footer__col:nth-child(3) {
+        width: 28%;
+    }
+
+    .footer__col:nth-child(4) {
+        width: 29%;
+    }
+
+.f-social {
+    margin-bottom: 20px;
+}
+
+    .f-social a {
+        color: #2f80ed;
+        margin-right: 10px;
+    }
+
+        .f-social a img {
+            margin-right: 5px;
+            height: 15px;
+            width: 15px;
+        }
+
+.f-certify {
+    margin-bottom: 20px;
+}
+
+    .f-certify a img {
+        margin-right: 5px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .f-certify a img {
+        height: 50px;
+        width: 350px;
+    }
+
+.footer__logo {
+    background-color: #fff;
+}
+
+.footer__logo-hd {
+    color: #222;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/*------- ProductCategory ---------*/
+.link {
+    margin: 0 10px;
+}
+
+    .link li {
+        display: inline-block;
+        vertical-align: middle;
+        overflow: hidden;
+    }
+
+        .link li a {
+            display: inline-block;
+            white-space: nowrap;
+            font-size: 14px;
+            color: #288ad6;
+        }
+
+    .link .sort-total {
+        margin-bottom: 0;
+        font-weight: normal;
+        padding-top: 0;
+        font-size: 14px;
+    }
+
+.filter-total {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 4px;
+    position: relative;
+    padding-bottom: 10px;
+    margin-top: 170px;
+}
+
+.filter-item {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 10px;
+}
+
+    .filter-item i {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+#all-prod-gaming {
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+    #all-prod-gaming tr td:hover {
+        box-shadow: 3px 3px 3px #ddd;
+    }
+
+    #all-prod-gaming tr td a i {
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+#moreprd {
+    transition-duration: 0.4s;
+}
+
+    #moreprd:hover {
+        background-color: #288ad6;
+        color: white;
+    }
